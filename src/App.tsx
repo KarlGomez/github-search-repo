@@ -5,6 +5,11 @@ import FilterControls from './components/FilterControls';
 import { fetchRepos } from './services/githubService';
 import './App.css';
 
+/* This is the main component of the application which is used for fetching the list
+of Github repositories and filters the list of repositories. Also it renders the
+SearchBar for user input, FilterControls for filtering the repositories and 
+RepoList for displaying the list of repositories*/
+
 const App: React.FC = () => {
   /* Used for storing the list of repositories */
   const [repos, setRepos] = useState([]);

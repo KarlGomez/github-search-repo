@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// API to fetch the list of repositories by username
+// Component to fetch the list of repositories by username using the github API
 
 export const fetchRepos = async (username: string) => {
   try {
